@@ -1,0 +1,21 @@
+.btnStyle{
+    padding: 20px 100px 20px 100px ;
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 550;
+    border: 1px solid black;
+    background-color: rgb(130, 131, 207);
+}
+
+.imageStyle{
+    margin-top: 40px;
+}
+
+
+.empPhoto{
+    margin: 10px 0 0 50px;
+    font-size: 20px;
+    color: rgb(93, 96, 196);
+}

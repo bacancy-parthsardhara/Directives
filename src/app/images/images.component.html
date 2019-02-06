@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div *ngIf="!flag">
+      <h1>Please click the button...</h1>
+    </div>
+    <div class="col-md-4">
+      <div class="col-md-12">
+        <div *ngFor="let buttons of buttonValue">
+          <button class="btn btn-default btnStyle" (click)="value(buttons.id)">{{buttons.name}}</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="col-md-12">
+        <img class="img-circle imageStyle" appShowImages [Number]="Number" height="220px" width="220px" />
+      </div>
+      <div class="col-md-5 empPhoto">
+        Emp Photo
+      </div>
+    </div>
+  </div>
+</div>
